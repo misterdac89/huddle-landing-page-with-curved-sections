@@ -1,0 +1,84 @@
+@import url("header.css");
+@import url("hero.css");
+@import url("stats.css");
+@import url("features.css");
+@import url("comm.css");
+@import url("footer.css");
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  padding: 1.5rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  color: #00252e;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  width: 100%;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.btn {
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 1000px;
+  padding: 0.5rem 1.75rem;
+  color: #f5faff;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ff8fd8;
+}
+
+@media only screen and (min-width: 564px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    padding: 0.75rem 2rem;
+  }
+}

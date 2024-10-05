@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70rem;
+  margin-inline: auto;
+  margin-bottom: 7rem;
+}
+
+.header-logo {
+  width: 6.5rem;
+}
+
+.cta-btn {
+  font-size: 0.75rem;
+  padding: 0.25rem 1.25rem;
+  border-radius: 1000px;
+  background-color: transparent;
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
+  box-shadow: 0 0 2px #ff52bf;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.cta-btn:hover,
+.cta-btn:active {
+  color: #ff8fd8;
+  border: 1px solid #ff8fd8;
+  box-shadow: 0 0 2px #ff8fd8;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-logo {
+    width: 7rem;
+  }
+
+  .cta-btn {
+    font-size: 0.75rem;
+    padding: 0.4rem 1.75rem;
+  }
+}
